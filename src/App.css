@@ -8,6 +8,14 @@
   justify-content: center;
 }
 
+.main{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .todo-create {
   display: flex;
   flex-direction: column;
@@ -18,8 +26,8 @@
 
 .todo-input{
     width: 100%;
-    padding: 10px;
     border: none;
+    padding: 10px 0;
     border-bottom: 1px solid lightgray;
     outline: none;
 }
