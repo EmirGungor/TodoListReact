@@ -29,10 +29,10 @@ const TodoCreate = ({ onCreateTodo }) => {
         onChange={(e) => setNewTodo(e.target.value)}
         className="todo-input"
         type="text"
-        placeholder="Todo giriniz"
+        placeholder="Enter Todo"
       />
       <button onClick={createTodo} className="todo-create-button">
-        Todo Oluştur
+        Create Todo 
       </button>
     </div>
   );
