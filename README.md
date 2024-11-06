@@ -1,8 +1,67 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![5dd8efd3-f505-4d09-963e-b4505e48b95e](https://github.com/user-attachments/assets/66c9a665-041a-43b4-9148-6b0588908827)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# TODO LIST APPLICATION
+
+THIS PROJECT IS A SIMPLE TODO LIST APPLICATION THAT ALLOWS USERS TO CREATE, UPDATE, AND DELETE TASKS. THE APP IS BUILT USING REACT AND PROVIDES AN EASY-TO-USE INTERFACE FOR MANAGING YOUR TO-DO ITEMS.
+
+## FEATURES
+
+- ADD NEW TASKS TO YOUR TO-DO LIST
+- EDIT EXISTING TASKS DIRECTLY FROM THE LIST
+- DELETE TASKS FROM YOUR LIST WHEN COMPLETED
+
+## INSTALLATION
+
+TO INSTALL AND RUN THIS PROJECT LOCALLY, USE THE FOLLOWING COMMANDS:
+
+```
+git clone 'https://github.com/your-username/todo-list'
+cd todo-list
+npm install
+npm start
+```
+
+THE APPLICATION WILL RUN IN YOUR BROWSER AT `http://localhost:5157`.
+
+## USAGE
+
+- ADD A TASK: ENTER YOUR TASK IN THE INPUT FIELD AND CLICK THE ADD BUTTON.
+- EDIT A TASK: CLICK THE EDIT ICON (PENCIL ICON) ON A TASK, MAKE CHANGES, AND CONFIRM.
+- DELETE A TASK: CLICK THE DELETE ICON (TRASH ICON) TO REMOVE A TASK FROM THE LIST.
+
+## PROJECT STRUCTURE
+
+- App.jsx: THE MAIN COMPONENT OF THE APPLICATION, RESPONSIBLE FOR MANAGING THE ADDITION, DELETION, AND UPDATING OF TASKS.
+- TodoCreate.jsx: COMPONENT USED TO ADD NEW TASKS.
+- TodoList.jsx: DISPLAYS THE LIST OF TASKS.
+- Todo.jsx: COMPONENT FOR DISPLAYING, EDITING, AND DELETING INDIVIDUAL TASKS.
+
+## TECHNOLOGIES USED
+
+- REACT - FOR BUILDING THE USER INTERFACE
+- REACT ICONS - FOR ICONS
+- CSS - FOR STYLING
+
+## CONTRIBUTING
+
+1. FORK THE REPOSITORY.
+2. CREATE YOUR FEATURE BRANCH:
+   
+  ``` git checkout -b 'feature/YourFeature'```
+
+3. COMMIT YOUR CHANGES:
+   
+  ``` git commit -m 'Add some feature'```
+
+4. PUSH TO THE BRANCH:
+   
+  ``` git push origin 'feature/YourFeature'```
+
+5. OPEN A PULL REQUEST.
+
+## LICENSE
+
+THIS PROJECT IS LICENSED UNDER THE MIT LICENSE. SEE THE `LICENSE` FILE FOR MORE INFORMATION.
